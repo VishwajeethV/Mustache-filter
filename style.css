@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 25px !important ;
+}
+
+.btn-success:hover
+{
+  background-color:blue;
+}
+
+canvas {
+    margin-top:80px;
+    border: 2px red;
+    animation-name: changing_colours;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing_colours {
+    from{ box-shadow:2px 2px 20px maroon ;}
+    to{ box-shadow:2px 2px 20px violet ;}
+}
