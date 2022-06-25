@@ -31,7 +31,7 @@ if(result.length>0) {
 
 function draw() {
     image(video,0,0,350,300);
-    image(mustache_image,nose_x-30,nose_y-30,30,30);
+    image(mustache_image,nose_x-155,nose_y-90,50,30);
 }
 
 function take_snapshot() {
